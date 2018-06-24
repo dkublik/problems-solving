@@ -1,0 +1,18 @@
+apply plugin: 'java'
+apply plugin: 'groovy'
+
+group = 'pl.dk'
+version = 0.1
+sourceCompatibility = 1.8
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+
+}
+
+wrapper {
+    gradleVersion '4.8.1'
+}
