@@ -1,7 +1,7 @@
 apply plugin: 'java'
 apply plugin: 'groovy'
 
-group = 'pl.dk'
+group = 'pl.dk.problems'
 version = 0.1
 sourceCompatibility = 1.8
 
