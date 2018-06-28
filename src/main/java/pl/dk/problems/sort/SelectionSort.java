@@ -1,4 +1,4 @@
-package pl.dk.problems;
+package pl.dk.problems.sort;
 
 import java.util.Arrays;
 
