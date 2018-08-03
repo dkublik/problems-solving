@@ -11,11 +11,4 @@ public class GraphUtil {
            System.out.println(node + ": " + Arrays.toString(graph.get(node).toArray()));
        }
    }
-
-    public static void printWeightedGraph(Map<String, List<Edge>> graph) {
-        for (String node: graph.keySet()) {
-            System.out.println(node + ": " + Arrays.toString(graph.get(node).toArray()));
-        }
-    }
-
 }
