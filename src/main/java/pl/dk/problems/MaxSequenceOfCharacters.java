@@ -13,12 +13,13 @@ public class MaxSequenceOfCharacters {
         for (int i = 1; i < sequence.length(); i++) {
             if (sequence.charAt(i) == sequence.charAt(i - 1)) {
                 currentLength ++;
-                if (currentLength == maxLength + 1) {
-                    maxLength = currentLength;
-                    maxCharacter = sequence.charAt(i - 1);
-                }
+
             } else {
                 currentLength = 1;
+            }
+            if (currentLength > maxLength) {
+                maxLength = currentLength;
+                maxCharacter = sequence.charAt(i - 1);
             }
         }
         String maxSubSequence = "";
