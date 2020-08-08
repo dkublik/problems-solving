@@ -1,9 +1,16 @@
-apply plugin: 'java'
-apply plugin: 'groovy'
+plugins {
+    id 'java'
+    id 'groovy'
+    id 'io.freefair.lombok' version '5.0.0'
+}
 
 group = 'pl.dk.problems'
 version = 0.1
 sourceCompatibility = 1.8
+
+lombok {
+    version = '1.18.12'
+}
 
 repositories {
     mavenCentral()
